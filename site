@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur Mon Interface</h1>
+        <nav>
+            <ul>
+                <li><a href="#download">Télécharger</a></li>
+                <li><a href="#features">Fonctionnalités</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="download">
+            <h2>Télécharger</h2>
+            <!-- Remplacez Full "optimization.exe" par le nom de votre fichier -->
+            <a href="Full optimization.exe" class="download-button" download>Télécharger Maintenant</a>
+        </section>
+
+        <section id="features">
+            <h2>Fonctionnalités</h2>
+            <p>Voici quelques-unes des fonctionnalités de notre produit...</p>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Pour toute question, contactez-nous à zazmsk@gmail.com.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mon Interface. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
